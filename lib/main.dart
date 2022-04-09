@@ -13,9 +13,8 @@ class myapp extends StatelessWidget {
           title: Text("MY RESUME"),
           backgroundColor: Colors.teal,
         ),
-        body: Center(
-          child: Image(image: AssetImage("images/images.png")),
-        ),
+        body: print("0102222222"),
+        child: Image(image: AssetImage("images/images.png")),
       ),
     );
   }
