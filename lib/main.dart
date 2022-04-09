@@ -11,10 +11,18 @@ class myapp extends StatelessWidget {
         //backgroundColor: Colors.blue[700],
         appBar: AppBar(
           title: Text("MY RESUME"),
-          backgroundColor: Colors.teal,
+          backgroundColor: Colors.blue,
         ),
-        body: print("0102222222"),
-        child: Image(image: AssetImage("images/images.png")),
+        body:
+         Image(image: AssetImage("images/images.png")),
+           TextButton(
+          style: TextButton.styleFrom(
+           primary: Colors.blue,
+  ),
+    onPressed: () { },
+     child: Text('251552132352'),
+)
+
       ),
     );
   }
