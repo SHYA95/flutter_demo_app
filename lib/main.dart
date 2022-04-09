@@ -11,11 +11,10 @@ class myapp extends StatelessWidget {
         //backgroundColor: Colors.blue[700],
         appBar: AppBar(
           title: Text("MY RESUME"),
-          backgroundColor: Colors.blue,
+          backgroundColor: Colors.teal,
         ),
         body: Center(
           child: Image(image: AssetImage("images/images.png")),
-          title: Text("phone number:"),
         ),
       ),
     );
