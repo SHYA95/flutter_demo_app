@@ -13,7 +13,7 @@ class myapp extends StatelessWidget {
           title: Text("MY RESUME"),
           backgroundColor: Colors.blue,
         ),
-        body: Center(child: Image(image: AssetImage("images/images.png"))),
+        body: Center(child: Image(image: AssetImage("images/images.png")), title: Text("phone number:")),
       ),
     );
   }
