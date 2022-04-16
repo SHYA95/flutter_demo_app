@@ -11,14 +11,13 @@ class myapp extends StatelessWidget {
     return MaterialApp(
       home: Scaffold(
         appBar: AppBar(title: Text("MY Resume"), backgroundColor: Colors.deepOrange),
-     
-         body: Center(
-           child:
-           title:Text("contacts")
-           backgroundColor(Colors.black26),
+        body: Center(
+          child: const CupertinoButton(
+            onPressed: null,
+            child: Text('Disabled'),
           ),
         ),
-       
+      ),
     );
   }
 }
