@@ -9,7 +9,7 @@ class myapp extends StatelessWidget {
   Widget build(BuildContext context) {
     return MaterialApp(
       home: Scaffold(
-        appBar: AppBar(title: Text("MY Resume")),
+        appBar: AppBar(title: Text("MY Resume"), backgroundColor: Colors.deepOrange),
       ),
     );
   }
