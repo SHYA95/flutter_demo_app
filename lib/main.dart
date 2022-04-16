@@ -4,9 +4,9 @@ import 'package:flutter/rendering.dart';
 import 'package:flutter_share/flutter_share.dart';
 //import 'package:url_launcher/url_launcher.dart';
 
-void main() => runApp(myapp());
+void main() => runApp(myResume());
 
-class myapp extends StatelessWidget {
+class myResume extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return MaterialApp(
