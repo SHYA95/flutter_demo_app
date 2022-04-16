@@ -12,9 +12,9 @@ class myapp extends StatelessWidget {
       home: Scaffold(
         appBar: AppBar(title: Text("MY Resume"), backgroundColor: Colors.deepOrange),
         body: Center(
-          child: const CupertinoButton(
-            onPressed: null,
-            child: Text('Disabled'),
+          child: CupertinoButton(
+            onPressed: () {},
+            child: const Text('Enabled'),
           ),
         ),
       ),
