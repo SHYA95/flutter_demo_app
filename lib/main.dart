@@ -54,7 +54,7 @@ class myResume extends StatelessWidget {
                 ),
               ),
               SizedBox(
-                width: 20.0,
+                height: 20.0,
               ),
               RaisedButton(
                 onPressed: () {},
