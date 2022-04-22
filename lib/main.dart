@@ -75,7 +75,7 @@ class myResume extends StatelessWidget {
                 height: 10.0,
               ),
               RaisedButton(
-                onPressed: () {},
+                onPressed: () => launch("mailto:smith@example.org?subject=News&body=New%20plugin"),
                 child: Row(children: <Widget>[
                   Icon(
                     Icons.email,
