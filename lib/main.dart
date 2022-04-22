@@ -84,7 +84,7 @@ class myResume extends StatelessWidget {
                     size: 30,
                     color: Colors.teal[300],
                   ),
-                  Text('shya@gmail.com',
+                  Text(mailaddress,
                       style: TextStyle(
                         fontSize: 25,
                       )),
