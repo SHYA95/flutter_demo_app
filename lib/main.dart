@@ -36,11 +36,15 @@ class myResume extends StatelessWidget {
           child: Column(
             crossAxisAlignment: CrossAxisAlignment.center,
             mainAxisAlignment: MainAxisAlignment.center,
-            children: <Widget>[
-              FlatButton(
-                child: Text('Share text and link'),
-                onPressed: (share),
+            children: [
+              RaisedButton(
+                onPressed: () {},
+                child: Text('please'),
               ),
+              RaisedButton(
+                onPressed: () {},
+                child: Text('center'),
+              )
             ],
           ),
         ),
