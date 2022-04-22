@@ -63,7 +63,7 @@ class myResume extends StatelessWidget {
                 child: Text('Contact Me'),
               ),
               SizedBox(
-                height: 50.0,
+                height: 80.0,
               ),
               RaisedButton(
                 onPressed: () {},
