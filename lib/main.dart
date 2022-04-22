@@ -53,14 +53,39 @@ class myResume extends StatelessWidget {
               ),
               RaisedButton(
                 onPressed: () {},
-                child: Text('Contact Me'),
+                child: Row(
+                  children: <Widget>[
+                    Icon(
+                      Icons.phone,
+                      size: 30,
+                      color: Colors.teal[300],
+                    ),
+                    SizedBox(
+                      width: 10.0,
+                    ),
+                    Text('+20 1233 325 1257',
+                        style: TextStyle(
+                          fontSize: 25,
+                        )),
+                  ],
+                ),
               ),
               SizedBox(
                 height: 10.0,
               ),
               RaisedButton(
                 onPressed: () {},
-                child: Text('Contact Me'),
+                child: Row(children: <Widget>[
+                  Icon(
+                    Icons.email,
+                    size: 30,
+                    color: Colors.teal[300],
+                  ),
+                  Text('shya@gmail.com',
+                      style: TextStyle(
+                        fontSize: 25,
+                      )),
+                ]),
               ),
               SizedBox(
                 height: 80.0,
