@@ -58,7 +58,7 @@ class myResume extends StatelessWidget {
               ),
               RaisedButton(
                 onPressed: () {},
-                child: Text('please'),
+                child: Text('Contact Me'),
               ),
             ],
           ),
