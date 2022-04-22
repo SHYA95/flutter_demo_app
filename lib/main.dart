@@ -26,7 +26,7 @@ class myResume extends StatelessWidget {
             children: <Widget>[
               FlatButton(
                 child: Text('Share text and link'),
-                onPressed: share,
+                onPressed: (share),
               ),
             ],
           ),
