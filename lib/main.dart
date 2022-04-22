@@ -4,6 +4,7 @@ import 'package:flutter/rendering.dart';
 import 'package:share_plus/share_plus.dart';
 
 void main() => runApp(myResume());
+bool isButtonPressed = false;
 
 class myResume extends StatelessWidget {
   @override
@@ -91,11 +92,11 @@ class myResume extends StatelessWidget {
                 height: 80.0,
               ),
               RaisedButton(
+                color: isButtonPressed ? Colors.green : Colors.black,
                 onPressed: () {},
                 child: Text(
                   'Contact Me',
                   style: TextStyle(
-                    fontSize: 20,
                     color: Colors.yellow,
                   ),
                 ),
