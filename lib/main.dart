@@ -41,7 +41,6 @@ class myResume extends StatelessWidget {
               Text(
                 "Shrouk Yasser",
                 style: TextStyle(
-                  fontFamily: 'Pacifico',
                   fontSize: 30,
                   color: Colors.white,
                   fontWeight: FontWeight.bold,
@@ -53,6 +52,9 @@ class myResume extends StatelessWidget {
                   fontSize: 20,
                   color: Colors.white,
                 ),
+              ),
+              SizedBox(
+                width: 20.0,
               ),
               RaisedButton(
                 onPressed: () {},
