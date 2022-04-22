@@ -49,21 +49,21 @@ class myResume extends StatelessWidget {
                 ),
               ),
               SizedBox(
-                height: 20.0,
+                height: 10.0,
               ),
               RaisedButton(
                 onPressed: () {},
                 child: Text('Contact Me'),
               ),
               SizedBox(
-                height: 20.0,
+                height: 10.0,
               ),
               RaisedButton(
                 onPressed: () {},
                 child: Text('Contact Me'),
               ),
               SizedBox(
-                height: 20.0,
+                height: 50.0,
               ),
               RaisedButton(
                 onPressed: () {},
