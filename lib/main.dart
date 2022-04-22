@@ -41,13 +41,6 @@ class myResume extends StatelessWidget {
                 onPressed: () {},
                 child: Text('please'),
               ),
-              SizedBox(
-                width: 40.0,
-              ),
-              RaisedButton(
-                onPressed: () {},
-                child: Text('center'),
-              )
             ],
           ),
         ),
