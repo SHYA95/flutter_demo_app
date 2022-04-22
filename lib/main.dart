@@ -5,6 +5,8 @@ import 'package:url_launcher/url_launcher.dart';
 
 void main() => runApp(myResume());
 bool isButtonPressed = false;
+String phonenumber = '+20 1233 325 1257';
+String mailaddress = 'shya@gmail.com';
 
 class myResume extends StatelessWidget {
   @override
@@ -53,7 +55,7 @@ class myResume extends StatelessWidget {
                 height: 10.0,
               ),
               RaisedButton(
-                onPressed: () => launch("tel://21213123123"),
+                onPressed: () => launch("tel://phonenumber"),
                 child: Row(
                   children: <Widget>[
                     Icon(
@@ -64,7 +66,7 @@ class myResume extends StatelessWidget {
                     SizedBox(
                       width: 10.0,
                     ),
-                    Text('+20 1233 325 1257',
+                    Text(phonenumber,
                         style: TextStyle(
                           fontSize: 25,
                         )),
