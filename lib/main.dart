@@ -42,7 +42,7 @@ class myResume extends StatelessWidget {
                 child: Text('please'),
               ),
               SizedBox(
-                width: 20.0,
+                width: 40.0,
               ),
               RaisedButton(
                 onPressed: () {},
