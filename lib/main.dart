@@ -15,9 +15,22 @@ class myResume extends StatelessWidget {
   Widget build(BuildContext context) {
     return MaterialApp(
       home: Scaffold(
+        backgroundColor: Colors.teal,
         appBar: AppBar(
-          title: Text("MY Resume"),
-          backgroundColor: Colors.teal,
+          backgroundColor: Colors.black,
+          title: Text(
+            "MY RESUME",
+            style: TextStyle(
+              color: Colors.yellow,
+              fontWeight: FontWeight.bold,
+            ),
+          ),
+          actions: [
+            Icon(Icons.share),
+            SizedBox(
+              width: 20.0,
+            ),
+          ],
         ),
         body: Center(
           child: Column(
