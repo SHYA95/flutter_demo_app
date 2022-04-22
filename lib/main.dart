@@ -1,7 +1,7 @@
 import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter/rendering.dart';
-import 'package:share_plus/share_plus.dart';
+import 'package:url_launcher/url_launcher.dart';
 
 void main() => runApp(myResume());
 bool isButtonPressed = false;
@@ -53,7 +53,7 @@ class myResume extends StatelessWidget {
                 height: 10.0,
               ),
               RaisedButton(
-                onPressed: () {},
+                onPressed: () => launch("tel://21213123123"),
                 child: Row(
                   children: <Widget>[
                     Icon(
