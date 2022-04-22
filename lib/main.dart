@@ -24,7 +24,10 @@ class myResume extends StatelessWidget {
             ),
           ),
           actions: [
-            Icon(Icons.share),
+            IconButton(
+              onPressed: () {},
+              icon: Icon(Icons.share),
+            ),
             SizedBox(
               width: 20.0,
             ),
