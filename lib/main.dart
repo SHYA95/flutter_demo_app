@@ -27,7 +27,7 @@ class myResume extends StatelessWidget {
           actions: [
             IconButton(
               onPressed: () {
-                Share.share('check out my website https://example.com', subject: 'Look what I made!');
+                Share.share('check out my website https://example.com', subject: 'Here you can share shrouk yasser resume!');
               },
               icon: Icon(Icons.share),
             ),
