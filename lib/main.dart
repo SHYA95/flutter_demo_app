@@ -2,6 +2,7 @@ import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter/rendering.dart';
 import 'package:url_launcher/url_launcher.dart';
+import 'package:share_plus/share_plus.dart';
 
 void main() => runApp(myResume());
 bool isButtonPressed = false;
@@ -25,7 +26,9 @@ class myResume extends StatelessWidget {
           ),
           actions: [
             IconButton(
-              onPressed: () {},
+              onPressed: () {
+                Share.share('check out my website https://example.com', subject: 'Look what I made!');
+              },
               icon: Icon(Icons.share),
             ),
             SizedBox(
