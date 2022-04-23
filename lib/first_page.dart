@@ -10,7 +10,7 @@ class myResume extends StatelessWidget {
     return MaterialApp(
       home: Scaffold(
         appBar: AppBar(
-          title: Text("MY Resume"),
+          title: Text("Create Resume"),
         ),
       ),
     );
